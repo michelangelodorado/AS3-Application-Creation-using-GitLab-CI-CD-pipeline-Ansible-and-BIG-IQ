@@ -16,5 +16,5 @@ This lab will be using the following F5 Ansible Galaxy roles:
 ./gitlab/start-gitlab.sh
 ```
 3. Wait ~10 min to open GitLab web UI from the lab environment. Click on the ACCESS button of the Ubuntu Lamp Server system and click on GitLab. The login/password is root/purple123. Or open http://localhost:7002 from Google Chrome browser in the Jumphost.
->> **Note**
->> You can check GitLab status with docker exec gitlab_gitlab_1 gitlab-ctl status and GitLab logs with docker logs gitlab_gitlab_1.
+> **Note**
+> You can check GitLab status with docker exec gitlab_gitlab_1 gitlab-ctl status and GitLab logs with docker logs gitlab_gitlab_1.
