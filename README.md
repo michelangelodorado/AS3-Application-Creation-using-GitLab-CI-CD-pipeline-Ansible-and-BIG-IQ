@@ -10,3 +10,9 @@ This lab will be using the following F5 Ansible Galaxy roles:
 - atc_deploy ansible Role: Allows AS3 declaration to be sent to automation tool chain service.
 - bigiq_move_app_dashboard ansible Role: Move Application Service(s) in BIG-IQ Application Dashboard.
 
+1. Connect via SSH or Web Shell to the system Ubuntu Lamp Server. (if you use the Web Shell, login as f5student first: su - f5student).
+
+2. Execute the following commands:
+```sh
+./gitlab/start-gitlab.sh
+```
